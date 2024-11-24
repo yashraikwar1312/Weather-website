@@ -11,7 +11,7 @@ let longitude = document.querySelector("#longitude");
 let latitude = document.querySelector("#latitude");
 
 check.addEventListener("click", () => {
-    let key = `bd4ea33ecf905116d12af172e008dbae`;
+    let key = `f9554c629673f64e2d4c1fbdaaf20ced`;
     let url = `https://api.openweathermap.org/data/2.5/weather?q=${city.value},${country.value}&lang=en&units=metric&appid=${key}`;
 
     fetch(url).then(response => {
